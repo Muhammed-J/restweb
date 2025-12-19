@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Contact Us — Spice Delight{% endblock %}
+{% block content %}
+<section class="contact">
+  <h2>Contact Information</h2>
+  <div class="contact-info">
+    <p><strong>Address:</strong> {{ contact.address }}</p>
+    <p><strong>Phone:</strong> {{ contact.phone }}</p>
+    <p><strong>Email:</strong> {{ contact.email }}</p>
+  </div>
+</section>
+{% endblock %}
